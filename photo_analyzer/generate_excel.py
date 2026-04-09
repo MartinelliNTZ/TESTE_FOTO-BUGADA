@@ -15,7 +15,7 @@ def generate_excel(report_path):
             'size': f"{data['width']}x{data['height']}",
         }
         # 4 sectors
-        for sector in ['top_left', 'top_right', 'bottom_left', 'bottom_right']:
+        for sector in ['top_left', 'top_right', 'bottom_left', 'bottom_right', 'overall']:
             s = data[sector]
             prefix = f"{sector}_"
             row[f"{prefix}means_R"] = s.get('means_R', 0)

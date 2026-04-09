@@ -87,4 +87,8 @@ class ImageAnalyzer:
         }
         for name, region in regions.items():
             metrics[name] = self.analyze_region(region)
+        
+        # Overall image analysis
+        overall = self.analyze_region(self.image)
+        metrics['overall'] = overall
         return metrics

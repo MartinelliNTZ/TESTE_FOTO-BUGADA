@@ -1,5 +1,24 @@
 {
   "DJI_20260406134845_0018_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134845_0018_D.JPG",
+    "exif": {
+      "GPSInfo": 734,
+      "ResolutionUnit": 2,
+      "ExifOffset": 260,
+      "ImageDescription": "default",
+      "Make": "DJI",
+      "Model": "M3M",
+      "Software": "11.09.03.02",
+      "Orientation": 1,
+      "DateTime": "2026:04:06 13:48:45",
+      "YCbCrPositioning": 2,
+      "XResolution": "72.0",
+      "YResolution": "72.0",
+      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
+    },
+    "height": 3956,
+    "width": 5280,
     "corrupted": false,
     "top_left": {
       "means_R": 116.0807025002298,
@@ -65,7 +84,25 @@
       "var": 136.5885917462309,
       "entropy": 6.898085117340088
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134845_0018_D.JPG",
+    "overall": {
+      "means_R": 118.2394871522352,
+      "means_G": 117.86553647891964,
+      "means_B": 96.17118684315348,
+      "stds_R": 30.83785693228269,
+      "stds_G": 24.570834546800594,
+      "stds_B": 33.090607506668654,
+      "dominant": "R",
+      "imbalance": 0.5524261692901811,
+      "green_ratio": 1.099437208815962,
+      "red_ratio": 1.1048523385803621,
+      "blue_ratio": 0.8146475273088037,
+      "mean_std": 29.499766328583984,
+      "var": 200.2026160393366,
+      "entropy": 6.858641624450684
+    }
+  },
+  "DJI_20260406134848_0019_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134848_0019_D.JPG",
     "exif": {
       "GPSInfo": 734,
       "ResolutionUnit": 2,
@@ -75,7 +112,7 @@
       "Model": "M3M",
       "Software": "11.09.03.02",
       "Orientation": 1,
-      "DateTime": "2026:04:06 13:48:45",
+      "DateTime": "2026:04:06 13:48:48",
       "YCbCrPositioning": 2,
       "XResolution": "72.0",
       "YResolution": "72.0",
@@ -83,9 +120,7 @@
       "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
     },
     "height": 3956,
-    "width": 5280
-  },
-  "DJI_20260406134848_0019_D.JPG": {
+    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 126.12558043784662,
@@ -151,27 +186,28 @@
       "var": 0.0,
       "entropy": -0.0
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134848_0019_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 13:48:48",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280
+    "overall": {
+      "means_R": 127.4006253925759,
+      "means_G": 127.4458855172044,
+      "means_B": 127.02896645295218,
+      "stds_R": 5.978567723623995,
+      "stds_G": 5.27731714437741,
+      "stds_B": 7.98632649920435,
+      "dominant": "G",
+      "imbalance": 0.5009082653977635,
+      "green_ratio": 1.001816530795527,
+      "red_ratio": 1.0012826368203704,
+      "blue_ratio": 0.9969056747096093,
+      "mean_std": 6.414070455735252,
+      "var": 6.755289816720993,
+      "entropy": 0.300285667181015
+    }
   },
   "DJI_20260406134851_0020_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134851_0020_D.JPG",
+    "exif": {},
+    "height": 3956,
+    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 122.39815642522291,
@@ -237,12 +273,43 @@
       "var": 0.0,
       "entropy": -0.0
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134851_0020_D.JPG",
-    "exif": {},
-    "height": 3956,
-    "width": 5280
+    "overall": {
+      "means_R": 126.20986121962802,
+      "means_G": 126.35998928555014,
+      "means_B": 125.52654071682446,
+      "stds_R": 10.512646517430523,
+      "stds_G": 9.093455823062758,
+      "stds_B": 12.727452107283046,
+      "dominant": "G",
+      "imbalance": 0.5019535844380902,
+      "green_ratio": 1.0039071688761807,
+      "red_ratio": 1.0021167961497441,
+      "blue_ratio": 0.9939946550687048,
+      "mean_std": 10.777851482592107,
+      "var": 7.973899254078579,
+      "entropy": 0.5892674326896667
+    }
   },
   "DJI_20260406134854_0021_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134854_0021_D.JPG",
+    "exif": {
+      "GPSInfo": 734,
+      "ResolutionUnit": 2,
+      "ExifOffset": 260,
+      "ImageDescription": "default",
+      "Make": "DJI",
+      "Model": "M3M",
+      "Software": "11.09.03.02",
+      "Orientation": 1,
+      "DateTime": "2026:04:06 13:48:54",
+      "YCbCrPositioning": 2,
+      "XResolution": "72.0",
+      "YResolution": "72.0",
+      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
+    },
+    "height": 3956,
+    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 119.57219011398107,
@@ -308,7 +375,25 @@
       "var": 0.0,
       "entropy": -0.0
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134854_0021_D.JPG",
+    "overall": {
+      "means_R": 124.90669217452584,
+      "means_G": 125.54637125808132,
+      "means_B": 123.20707709041885,
+      "stds_R": 14.386309826557094,
+      "stds_G": 11.281722880034094,
+      "stds_B": 17.656579553531284,
+      "dominant": "G",
+      "imbalance": 0.5060032404893193,
+      "green_ratio": 1.0120064809786389,
+      "red_ratio": 1.0042609901795876,
+      "blue_ratio": 0.9838735881429684,
+      "mean_std": 14.441537420040824,
+      "var": 21.35821848094135,
+      "entropy": 1.081541657447815
+    }
+  },
+  "DJI_20260406134857_0022_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134857_0022_D.JPG",
     "exif": {
       "GPSInfo": 734,
       "ResolutionUnit": 2,
@@ -318,7 +403,7 @@
       "Model": "M3M",
       "Software": "11.09.03.02",
       "Orientation": 1,
-      "DateTime": "2026:04:06 13:48:54",
+      "DateTime": "2026:04:06 13:48:57",
       "YCbCrPositioning": 2,
       "XResolution": "72.0",
       "YResolution": "72.0",
@@ -326,9 +411,7 @@
       "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
     },
     "height": 3956,
-    "width": 5280
-  },
-  "DJI_20260406134857_0022_D.JPG": {
+    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 121.91021674020284,
@@ -394,7 +477,25 @@
       "var": 0.0,
       "entropy": -0.0
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134857_0022_D.JPG",
+    "overall": {
+      "means_R": 125.17167799391794,
+      "means_G": 126.20687730758036,
+      "means_B": 124.00914519946686,
+      "stds_R": 15.289572722799589,
+      "stds_G": 10.433776341043263,
+      "stds_B": 17.570929340649318,
+      "dominant": "G",
+      "imbalance": 0.5064871192340249,
+      "green_ratio": 1.0129742384680498,
+      "red_ratio": 1.0005088941927571,
+      "blue_ratio": 0.9866326509095641,
+      "mean_std": 14.431426134830724,
+      "var": 21.565784419249972,
+      "entropy": 0.8192618489265442
+    }
+  },
+  "DJI_20260406134901_0023_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134901_0023_D.JPG",
     "exif": {
       "GPSInfo": 734,
       "ResolutionUnit": 2,
@@ -404,7 +505,7 @@
       "Model": "M3M",
       "Software": "11.09.03.02",
       "Orientation": 1,
-      "DateTime": "2026:04:06 13:48:57",
+      "DateTime": "2026:04:06 13:49:01",
       "YCbCrPositioning": 2,
       "XResolution": "72.0",
       "YResolution": "72.0",
@@ -412,9 +513,7 @@
       "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
     },
     "height": 3956,
-    "width": 5280
-  },
-  "DJI_20260406134901_0023_D.JPG": {
+    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 113.79523297944051,
@@ -480,7 +579,25 @@
       "var": 0.0,
       "entropy": -0.0
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134901_0023_D.JPG",
+    "overall": {
+      "means_R": 120.00331295768606,
+      "means_G": 122.45837977219107,
+      "means_B": 118.95180647156602,
+      "stds_R": 31.935381482510298,
+      "stds_G": 23.45459724315862,
+      "stds_B": 31.80220626839338,
+      "dominant": "G",
+      "imbalance": 0.5124743929516334,
+      "green_ratio": 1.024948785903267,
+      "red_ratio": 0.9941859937634622,
+      "blue_ratio": 0.9812008250234266,
+      "mean_std": 29.064061664687433,
+      "var": 26.518191679717635,
+      "entropy": 1.0293397903442383
+    }
+  },
+  "DJI_20260406134904_0024_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134904_0024_D.JPG",
     "exif": {
       "GPSInfo": 734,
       "ResolutionUnit": 2,
@@ -490,7 +607,7 @@
       "Model": "M3M",
       "Software": "11.09.03.02",
       "Orientation": 1,
-      "DateTime": "2026:04:06 13:49:01",
+      "DateTime": "2026:04:06 13:49:04",
       "YCbCrPositioning": 2,
       "XResolution": "72.0",
       "YResolution": "72.0",
@@ -498,9 +615,7 @@
       "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
     },
     "height": 3956,
-    "width": 5280
-  },
-  "DJI_20260406134904_0024_D.JPG": {
+    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 126.36857650059748,
@@ -566,7 +681,25 @@
       "var": 0.0,
       "entropy": -0.0
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134904_0024_D.JPG",
+    "overall": {
+      "means_R": 127.48446241995282,
+      "means_G": 127.78418522305972,
+      "means_B": 126.65885454966755,
+      "stds_R": 10.23043755311214,
+      "stds_G": 7.628036395152951,
+      "stds_B": 10.603964677190646,
+      "dominant": "G",
+      "imbalance": 0.502803641452176,
+      "green_ratio": 1.005607282904352,
+      "red_ratio": 1.002066808617159,
+      "blue_ratio": 0.9923573123386238,
+      "mean_std": 9.487479541818578,
+      "var": 11.354775300204047,
+      "entropy": 0.5187093019485474
+    }
+  },
+  "DJI_20260406134908_0025_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134908_0025_D.JPG",
     "exif": {
       "GPSInfo": 734,
       "ResolutionUnit": 2,
@@ -576,7 +709,7 @@
       "Model": "M3M",
       "Software": "11.09.03.02",
       "Orientation": 1,
-      "DateTime": "2026:04:06 13:49:04",
+      "DateTime": "2026:04:06 13:49:08",
       "YCbCrPositioning": 2,
       "XResolution": "72.0",
       "YResolution": "72.0",
@@ -584,9 +717,7 @@
       "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
     },
     "height": 3956,
-    "width": 5280
-  },
-  "DJI_20260406134908_0025_D.JPG": {
+    "width": 5280,
     "corrupted": false,
     "top_left": {
       "means_R": 109.01699183442106,
@@ -652,7 +783,25 @@
       "var": 317.7326306938143,
       "entropy": 7.260064125061035
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134908_0025_D.JPG",
+    "overall": {
+      "means_R": 122.070051293394,
+      "means_G": 131.60328686575053,
+      "means_B": 95.60613098247389,
+      "stds_R": 51.880205310681454,
+      "stds_G": 40.403124650871405,
+      "stds_B": 46.22230724882831,
+      "dominant": "G",
+      "imbalance": 0.6045828509568656,
+      "green_ratio": 1.2091657019137312,
+      "red_ratio": 1.0745157700719663,
+      "blue_ratio": 0.7537735867416576,
+      "mean_std": 46.168545736793725,
+      "var": 525.8573649154825,
+      "entropy": 7.48669958114624
+    }
+  },
+  "DJI_20260406140552_0001_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140552_0001_D.JPG",
     "exif": {
       "GPSInfo": 734,
       "ResolutionUnit": 2,
@@ -662,7 +811,7 @@
       "Model": "M3M",
       "Software": "11.09.03.02",
       "Orientation": 1,
-      "DateTime": "2026:04:06 13:49:08",
+      "DateTime": "2026:04:06 14:05:52",
       "YCbCrPositioning": 2,
       "XResolution": "72.0",
       "YResolution": "72.0",
@@ -670,9 +819,7 @@
       "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
     },
     "height": 3956,
-    "width": 5280
-  },
-  "DJI_20260406140552_0001_D.JPG": {
+    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 31.212791846677085,
@@ -738,7 +885,25 @@
       "var": 5.5284309211992975,
       "entropy": 2.4731316566467285
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140552_0001_D.JPG",
+    "overall": {
+      "means_R": 14.641800429726997,
+      "means_G": 43.41466687540215,
+      "means_B": 10.860407474645342,
+      "stds_R": 41.25509651092084,
+      "stds_G": 27.325197481792227,
+      "stds_B": 30.280534045051585,
+      "dominant": "G",
+      "imbalance": 1.7023885554614557,
+      "green_ratio": 3.4047771109229115,
+      "red_ratio": 0.5395405019731377,
+      "blue_ratio": 0.37413256364931635,
+      "mean_std": 32.95360934592155,
+      "var": 21.61935528464212,
+      "entropy": 3.3884692192077637
+    }
+  },
+  "DJI_20260406140559_0002_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140559_0002_D.JPG",
     "exif": {
       "GPSInfo": 734,
       "ResolutionUnit": 2,
@@ -748,7 +913,7 @@
       "Model": "M3M",
       "Software": "11.09.03.02",
       "Orientation": 1,
-      "DateTime": "2026:04:06 14:05:52",
+      "DateTime": "2026:04:06 14:05:59",
       "YCbCrPositioning": 2,
       "XResolution": "72.0",
       "YResolution": "72.0",
@@ -756,9 +921,7 @@
       "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
     },
     "height": 3956,
-    "width": 5280
-  },
-  "DJI_20260406140559_0002_D.JPG": {
+    "width": 5280,
     "corrupted": false,
     "top_left": {
       "means_R": 147.25007219566749,
@@ -824,7 +987,25 @@
       "var": 120.90578177231876,
       "entropy": 6.138190269470215
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140559_0002_D.JPG",
+    "overall": {
+      "means_R": 144.60120549529674,
+      "means_G": 132.57031206912401,
+      "means_B": 108.02783401507492,
+      "stds_R": 24.780582339409087,
+      "stds_G": 17.0992402707905,
+      "stds_B": 17.54867068072301,
+      "dominant": "R",
+      "imbalance": 0.6010071475974407,
+      "green_ratio": 1.049525520312809,
+      "red_ratio": 1.2020142951948813,
+      "blue_ratio": 0.7795016960208898,
+      "mean_std": 19.809497763640863,
+      "var": 122.4016653548259,
+      "entropy": 6.26881217956543
+    }
+  },
+  "DJI_20260406140603_0003_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140603_0003_D.JPG",
     "exif": {
       "GPSInfo": 734,
       "ResolutionUnit": 2,
@@ -834,7 +1015,7 @@
       "Model": "M3M",
       "Software": "11.09.03.02",
       "Orientation": 1,
-      "DateTime": "2026:04:06 14:05:59",
+      "DateTime": "2026:04:06 14:06:03",
       "YCbCrPositioning": 2,
       "XResolution": "72.0",
       "YResolution": "72.0",
@@ -842,9 +1023,7 @@
       "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
     },
     "height": 3956,
-    "width": 5280
-  },
-  "DJI_20260406140603_0003_D.JPG": {
+    "width": 5280,
     "corrupted": false,
     "top_left": {
       "means_R": 142.13987230750377,
@@ -910,27 +1089,28 @@
       "var": 119.36941739386009,
       "entropy": 6.065824508666992
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140603_0003_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 14:06:03",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280
+    "overall": {
+      "means_R": 140.3815808648926,
+      "means_G": 129.7772292566719,
+      "means_B": 106.12431098140148,
+      "stds_R": 23.949078806216328,
+      "stds_G": 16.935370144550053,
+      "stds_B": 17.157049345611824,
+      "dominant": "R",
+      "imbalance": 0.5950854781330321,
+      "green_ratio": 1.052934096500971,
+      "red_ratio": 1.1901709562660643,
+      "blue_ratio": 0.7856439028114484,
+      "mean_std": 19.347166098792737,
+      "var": 118.96349450926425,
+      "entropy": 6.232229232788086
+    }
   },
   "DJI_20260406140603_0004_D.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140603_0004_D.JPG",
+    "exif": {},
+    "height": 648,
+    "width": 1536,
     "corrupted": true,
     "top_left": {
       "means_R": 0.0,
@@ -996,9 +1176,121 @@
       "var": 0.0,
       "entropy": -0.0
     },
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140603_0004_D.JPG",
-    "exif": {},
-    "height": 648,
-    "width": 1536
+    "overall": {
+      "means_R": 0.0,
+      "means_G": 0.0,
+      "means_B": 0.0,
+      "stds_R": 0.0,
+      "stds_G": 0.0,
+      "stds_B": 0.0,
+      "dominant": "R",
+      "imbalance": 0.0,
+      "green_ratio": 0.0,
+      "red_ratio": 0.0,
+      "blue_ratio": 0.0,
+      "mean_std": 0.0,
+      "var": 0.0,
+      "entropy": -0.0
+    }
+  },
+  "IX-12-12730_0496_0009.JPG": {
+    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\IX-12-12730_0496_0009.JPG",
+    "exif": {
+      "GPSInfo": 9574,
+      "ResolutionUnit": 2,
+      "ExifOffset": 252,
+      "ProcessingSoftware": "eMotion 3.23.1",
+      "Make": "senseFly",
+      "Model": "S.O.D.A.",
+      "Software": "1.3.0",
+      "Orientation": 3,
+      "CameraSerialNumber": "SI002001AA0C00130",
+      "UniqueCameraModel": "senseFly S.O.D.A.",
+      "XResolution": "72.0",
+      "YResolution": "72.0"
+    },
+    "height": 3648,
+    "width": 5472,
+    "corrupted": true,
+    "top_left": {
+      "means_R": 85.84362536229096,
+      "means_G": 182.64516225344977,
+      "means_B": 48.914545421026986,
+      "stds_R": 63.72673123665657,
+      "stds_G": 51.2624508351616,
+      "stds_B": 45.42863438938339,
+      "dominant": "G",
+      "imbalance": 1.3553550125515639,
+      "green_ratio": 2.710710025103129,
+      "red_ratio": 0.7414383635599392,
+      "blue_ratio": 0.3643693716627983,
+      "mean_std": 53.47260548706718,
+      "var": 8759.893650420014,
+      "entropy": 4.3159074783325195
+    },
+    "top_right": {
+      "means_R": 70.83572208916846,
+      "means_G": 176.1540978955063,
+      "means_B": 35.307646343105574,
+      "stds_R": 44.64689419830634,
+      "stds_G": 54.11085054384973,
+      "stds_B": 26.50092266870646,
+      "dominant": "G",
+      "imbalance": 1.6595864677867598,
+      "green_ratio": 3.3191729355735196,
+      "red_ratio": 0.6699625253184136,
+      "blue_ratio": 0.28590365663893635,
+      "mean_std": 41.752889136954174,
+      "var": 8449.906938973725,
+      "entropy": 4.099555015563965
+    },
+    "bottom_left": {
+      "means_R": 143.66416509567046,
+      "means_G": 154.57713030291373,
+      "means_B": 92.74679268300503,
+      "stds_R": 42.06400725681399,
+      "stds_G": 19.5706616867027,
+      "stds_B": 34.65262462890365,
+      "dominant": "G",
+      "imbalance": 0.6538492621294932,
+      "green_ratio": 1.3076985242589865,
+      "red_ratio": 1.1617490403777064,
+      "blue_ratio": 0.6219580863813893,
+      "mean_std": 32.095764524140115,
+      "var": 75.92343774576501,
+      "entropy": 6.527971267700195
+    },
+    "bottom_right": {
+      "means_R": 103.50021641274238,
+      "means_G": 137.42756645474248,
+      "means_B": 57.25302356654612,
+      "stds_R": 14.99338052933626,
+      "stds_G": 15.50092280961027,
+      "stds_B": 13.099598922375232,
+      "dominant": "G",
+      "imbalance": 0.8548976460595675,
+      "green_ratio": 1.709795292119135,
+      "red_ratio": 1.063282337509091,
+      "blue_ratio": 0.47527124423036293,
+      "mean_std": 14.53130075377392,
+      "var": 82.15991438559661,
+      "entropy": 5.8605499267578125
+    },
+    "overall": {
+      "means_R": 100.96093223996807,
+      "means_G": 162.70098922665306,
+      "means_B": 58.555502003420926,
+      "stds_R": 52.47546787791036,
+      "stds_G": 43.19320424608498,
+      "stds_B": 38.54418002495702,
+      "dominant": "G",
+      "imbalance": 1.0199638049732547,
+      "green_ratio": 2.03992760994651,
+      "red_ratio": 0.912614420292724,
+      "blue_ratio": 0.44417109363161406,
+      "mean_std": 44.737617382984126,
+      "var": 4340.768058933757,
+      "entropy": 5.748746395111084
+    }
   }
 }
