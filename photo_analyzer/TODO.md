@@ -1,0 +1,1 @@
+# TODO: PhotoSector Model Implementation\n\n- [x] Create photo_analyzer/photo_sector.py with PhotoSector class (__init__ from JSON, to_json method)\n- [ ] Integrate/test with detection_report.json (load sample top_left data)\n- [ ] Update callers if needed (e.g., corruption_detector.py)
