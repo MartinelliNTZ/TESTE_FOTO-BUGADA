@@ -5,7 +5,7 @@ from image_analyzer import ImageAnalyzer
 from pathlib import Path
 
 class CorruptionDetector:
-    def __init__(self, images_dir: str, bugged_patterns: list = None):
+    def __init__(self, images_dir: str, bugged_patterns=None):
         self.dir = Path(images_dir)
         self.bugged_patterns = bugged_patterns or ['0001_D']
         self.analyzers = {}
@@ -20,36 +20,30 @@ class CorruptionDetector:
                 print(f"Error loading {jpg}: {e}")
 
     def is_corrupted(self, metrics: dict) -> bool:
-        bottom = metrics['bottom']
-        top = metrics['top']
-        # Generalized for any channel corruption (green/blue/pink/black/gray)
-        imbalance_thresh = 4.0  # One channel >> others
+        # Average bottom quadrants
+        bl, br = metrics['bottom_left'], metrics['bottom_right']
+        b_imbalance = (bl['channel_imbalance'] + br['channel_imbalance']) / 2
+        b_var = (bl['laplacian_var'] + br['laplacian_var']) / 2
+        b_ent = (bl['entropy'] + br['entropy']) / 2
+        b_std_mean = (bl['mean_std'] + br['mean_std']) / 2
+        
+        # Average top quadrants
+        tl, tr = metrics['top_left'], metrics['top_right']
+        t_var = (tl['laplacian_var'] + tr['laplacian_var']) / 2
+        
+        # Thresholds
+        imbalance_thresh = 4.0
         low_var_thresh = 50.0
         low_ent_thresh = 4.0
         low_std_thresh = 10.0
-        quality_diff_thresh = 5.0  # top much sharper
-        phash_diff_thresh = 10
-
-        # Channel imbalance bottom
-        b_imbalance = bottom['channel_imbalance']
-        b_var = bottom['laplacian_var']
-        b_ent = bottom['entropy']
-        b_std_mean = bottom['mean_std']
-
-        # Top-bottom quality diff
-        t_var = top['laplacian_var']
-        phash_t = imagehash.hex_to_hash(top['phash'])
-        phash_b = imagehash.hex_to_hash(bottom['phash'])
-        phash_dist = phash_t - phash_b
-
-        # ANY of these = corrupted
+        quality_diff_thresh = 5.0
+        
+        # Check conditions
         imbalance_issue = b_imbalance > imbalance_thresh
-        low_quality = (b_var < low_var_thresh or b_ent < low_ent_thresh or b_std_mean < low_std_thresh)
+        low_quality = b_var < low_var_thresh or b_ent < low_ent_thresh or b_std_mean < low_std_thresh
         quality_diff = t_var > b_var * quality_diff_thresh
-        hash_diff = phash_dist > phash_diff_thresh
-
-        corrupted = imbalance_issue or low_quality or (quality_diff and hash_diff)
-        return corrupted
+        
+        return imbalance_issue or low_quality or quality_diff
 
     def detect(self):
         self.load_images()
@@ -63,11 +57,12 @@ class CorruptionDetector:
             }
         return results
 
-    def save_report(self, filename='report.json'):
+    def save_report(self, filename='detection_report.json'):
         results = self.detect()
-        with open(self.dir / filename, 'w') as f:
+        report_path = self.dir / filename
+        with open(report_path, 'w') as f:
             json.dump(results, f, indent=2, default=str)
-        print(f"Report saved: {self.dir / filename}")
+        print(f"Report saved: {report_path}")
         for fname, data in results.items():
             print(f"{fname}: corrupted={data['corrupted']}")
         return results

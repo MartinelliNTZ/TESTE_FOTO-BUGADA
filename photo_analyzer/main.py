@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Main script to detect corrupted drone photos.
-Usage: python main.py
+Main script to detect corrupted drone photos with 4 quadrants analysis + auto Excel.
 """
 import sys
 import os
@@ -12,11 +11,9 @@ from corruption_detector import CorruptionDetector
 from PIL import Image
 import numpy as np
 import re
+import subprocess
 
 def parse_mrk(mrk_path):
-    """
-    Simple MRK parser for timestamps matching filenames.
-    """
     markers = {}
     with open(mrk_path, 'r') as f:
         for line in f:
@@ -28,27 +25,29 @@ def parse_mrk(mrk_path):
     return markers
 
 def main():
-    base_dir = Path(__file__).parent.parent  # g:/DCIM/TESTE_FOTO BUGADA
+    base_dir = Path(__file__).parent.parent
     analyzer_dir = Path(__file__).parent
 
     # Detect corruption
-    detector = CorruptionDetector(base_dir)
+    detector = CorruptionDetector(str(base_dir))
     results = detector.save_report(str(analyzer_dir / 'detection_report.json'))
-
-    # Parse MRK for anomalies (simple: check gaps)
+    
+    # Auto generate Excel
+    print("\nGerando Excel...")
+    subprocess.run([sys.executable, str(analyzer_dir / 'generate_excel.py')], cwd=analyzer_dir, check=True)
+    
+    # MRK analysis
     mrk_path = base_dir / 'DJI_202604061403_002_B01' / 'DJI_202604061403_002_B01_Timestamp.MRK'
     if mrk_path.exists():
         markers = parse_mrk(mrk_path)
-        print("\nMRK Timestamps:")
-        print(markers)
-        # Simple anomaly: if timestamps far apart for consecutive photos
+        print("\nMRK Timestamps:", markers)
         times = sorted([float(t) for t in markers.values()])
         gaps = np.diff(times)
         print(f"Time gaps: {gaps}")
-        if np.any(gaps > 10):  # >10s gap anomaly?
-            print("Potential timestamp anomaly detected!")
+        if np.any(gaps > 10):
+            print("⚠️  Potential timestamp anomaly!")
 
-    print("\nAnalysis complete. Check detection_report.json for full metrics.")
+    print("\n✅ Completo! Check detection_report.json + analysis_report.xlsx")
 
 if __name__ == "__main__":
     main()
