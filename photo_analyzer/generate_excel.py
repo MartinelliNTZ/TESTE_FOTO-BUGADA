@@ -12,7 +12,6 @@ def generate_excel(report_path):
         row = {
             'filename': fname,
             'corrupted': data['corrupted'],
-            'size': f"{data['width']}x{data['height']}",
         }
         # 4 sectors
         for sector in ['top_left', 'top_right', 'bottom_left', 'bottom_right', 'overall']:
@@ -38,7 +37,7 @@ def generate_excel(report_path):
     xlsx_path = Path(report_path).parent / 'analysis_report.xlsx'
     df.to_excel(xlsx_path, index=False, float_format='%.3f')
     print(f"✅ Excel gerado: {xlsx_path}")
-    print(df[['filename', 'corrupted', 'bottom_left_dominant', 'bottom_right_imbalance', 'bottom_left_var']].to_string(index=False))
+    print(df[['filename', 'corrupted', 'bottom_left_dominant', 'bottom_right_imbalance', 'bottom_left_var', 'overall_var']].to_string(index=False))
 
 if __name__ == '__main__':
     report_path = Path(__file__).parent / 'detection_report.json'

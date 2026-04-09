@@ -51,13 +51,8 @@ class PhotoSector:
 class PhotoImage:
     def __init__(self, metrics: dict):
         """
-        Initialize PhotoImage from full image metrics dict.
-        Contains overall image data + 5 PhotoSector instances (4 quadrants + overall).
+        Initialize PhotoImage with corrupted flag + 5 PhotoSectors.
         """
-        self.path = metrics.get('path', '')
-        self.exif = metrics.get('exif', {})
-        self.height = metrics.get('height', 0)
-        self.width = metrics.get('width', 0)
         self.corrupted = metrics.get('corrupted', False)
         
         # 5 sectors: 4 quadrants + overall
@@ -69,13 +64,9 @@ class PhotoImage:
 
     def to_json(self) -> dict:
         """
-        Full image to JSON: overall + 5 sectors.
+        Full image to JSON: corrupted + 5 sectors only.
         """
         return {
-            'path': self.path,
-            'exif': self.exif,
-            'height': self.height,
-            'width': self.width,
             'corrupted': self.corrupted,
             'top_left': self.top_left.to_json(),
             'top_right': self.top_right.to_json(),

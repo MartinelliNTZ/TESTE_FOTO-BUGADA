@@ -1,24 +1,5 @@
 {
   "DJI_20260406134845_0018_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134845_0018_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 13:48:45",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": false,
     "top_left": {
       "means_R": 116.0807025002298,
@@ -102,25 +83,6 @@
     }
   },
   "DJI_20260406134848_0019_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134848_0019_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 13:48:48",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 126.12558043784662,
@@ -204,10 +166,6 @@
     }
   },
   "DJI_20260406134851_0020_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134851_0020_D.JPG",
-    "exif": {},
-    "height": 3956,
-    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 122.39815642522291,
@@ -291,25 +249,6 @@
     }
   },
   "DJI_20260406134854_0021_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134854_0021_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 13:48:54",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 119.57219011398107,
@@ -393,25 +332,6 @@
     }
   },
   "DJI_20260406134857_0022_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134857_0022_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 13:48:57",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 121.91021674020284,
@@ -495,25 +415,6 @@
     }
   },
   "DJI_20260406134901_0023_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134901_0023_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 13:49:01",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 113.79523297944051,
@@ -597,25 +498,6 @@
     }
   },
   "DJI_20260406134904_0024_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134904_0024_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 13:49:04",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 126.36857650059748,
@@ -699,25 +581,6 @@
     }
   },
   "DJI_20260406134908_0025_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134908_0025_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 13:49:08",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": false,
     "top_left": {
       "means_R": 109.01699183442106,
@@ -801,25 +664,6 @@
     }
   },
   "DJI_20260406140552_0001_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140552_0001_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 14:05:52",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": true,
     "top_left": {
       "means_R": 31.212791846677085,
@@ -903,25 +747,6 @@
     }
   },
   "DJI_20260406140559_0002_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140559_0002_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 14:05:59",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": false,
     "top_left": {
       "means_R": 147.25007219566749,
@@ -1005,25 +830,6 @@
     }
   },
   "DJI_20260406140603_0003_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140603_0003_D.JPG",
-    "exif": {
-      "GPSInfo": 734,
-      "ResolutionUnit": 2,
-      "ExifOffset": 260,
-      "ImageDescription": "default",
-      "Make": "DJI",
-      "Model": "M3M",
-      "Software": "11.09.03.02",
-      "Orientation": 1,
-      "DateTime": "2026:04:06 14:06:03",
-      "YCbCrPositioning": 2,
-      "XResolution": "72.0",
-      "YResolution": "72.0",
-      "XPComment": "b'0\\x00.\\x009\\x00.\\x001\\x004\\x002\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
-      "XPKeywords": "b's\\x00i\\x00n\\x00g\\x00l\\x00e\\x00'"
-    },
-    "height": 3956,
-    "width": 5280,
     "corrupted": false,
     "top_left": {
       "means_R": 142.13987230750377,
@@ -1107,10 +913,6 @@
     }
   },
   "DJI_20260406140603_0004_D.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140603_0004_D.JPG",
-    "exif": {},
-    "height": 648,
-    "width": 1536,
     "corrupted": true,
     "top_left": {
       "means_R": 0.0,
@@ -1194,23 +996,6 @@
     }
   },
   "IX-12-12730_0496_0009.JPG": {
-    "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\IX-12-12730_0496_0009.JPG",
-    "exif": {
-      "GPSInfo": 9574,
-      "ResolutionUnit": 2,
-      "ExifOffset": 252,
-      "ProcessingSoftware": "eMotion 3.23.1",
-      "Make": "senseFly",
-      "Model": "S.O.D.A.",
-      "Software": "1.3.0",
-      "Orientation": 3,
-      "CameraSerialNumber": "SI002001AA0C00130",
-      "UniqueCameraModel": "senseFly S.O.D.A.",
-      "XResolution": "72.0",
-      "YResolution": "72.0"
-    },
-    "height": 3648,
-    "width": 5472,
     "corrupted": true,
     "top_left": {
       "means_R": 85.84362536229096,
