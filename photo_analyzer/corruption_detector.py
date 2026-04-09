@@ -2,7 +2,7 @@ import json
 import numpy as np
 import imagehash
 from image_analyzer import ImageAnalyzer
-from photo_sector import PhotoSector, PhotoImage
+from photo_sector import PhotoSector
 from pathlib import Path
 
 class CorruptionDetector:
@@ -57,8 +57,8 @@ class CorruptionDetector:
                 'corrupted': is_bug,
                 **metrics
             }
-            photo_image = PhotoImage(image_data)
-            results[filename] = photo_image.to_json()
+            photo_image = image_data
+            results[filename] = photo_image
         return results
 
     def save_report(self, filename='detection_report.json'):
