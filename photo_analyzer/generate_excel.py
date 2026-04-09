@@ -18,20 +18,20 @@ def generate_excel(report_path):
         for sector in ['top_left', 'top_right', 'bottom_left', 'bottom_right']:
             s = data[sector]
             prefix = f"{sector}_"
-            row[f"{prefix}means_R"] = s['means'][0]
-            row[f"{prefix}means_G"] = s['means'][1]
-            row[f"{prefix}means_B"] = s['means'][2]
-            row[f"{prefix}stds_R"] = s['stds'][0]
-            row[f"{prefix}stds_G"] = s['stds'][1]
-            row[f"{prefix}stds_B"] = s['stds'][2]
-            row[f"{prefix}dominant"] = s['dominant_channel']
-            row[f"{prefix}imbalance"] = round(s['channel_imbalance'], 3)
-            row[f"{prefix}green_ratio"] = round(s['green_ratio'], 3)
-            row[f"{prefix}red_ratio"] = round(s['red_ratio'], 3)
-            row[f"{prefix}blue_ratio"] = round(s['blue_ratio'], 3)
-            row[f"{prefix}mean_std"] = round(s['mean_std'], 3)
-            row[f"{prefix}var"] = round(s['laplacian_var'], 3)
-            row[f"{prefix}entropy"] = round(s['entropy'], 3)
+            row[f"{prefix}means_R"] = s.get('top_left_means_R', 0)
+            row[f"{prefix}means_G"] = s.get('top_left_means_G', 0)
+            row[f"{prefix}means_B"] = s.get('top_left_means_B', 0)
+            row[f"{prefix}stds_R"] = s.get('top_left_stds_R', 0)
+            row[f"{prefix}stds_G"] = s.get('top_left_stds_G', 0)
+            row[f"{prefix}stds_B"] = s.get('top_left_stds_B', 0)
+            row[f"{prefix}dominant"] = s.get('top_left_dominant', 'Unknown')
+            row[f"{prefix}imbalance"] = round(s.get('top_left_imbalance', 0), 3)
+            row[f"{prefix}green_ratio"] = round(s.get('top_left_green_ratio', 0), 3)
+            row[f"{prefix}red_ratio"] = round(s.get('top_left_red_ratio', 0), 3)
+            row[f"{prefix}blue_ratio"] = round(s.get('top_left_blue_ratio', 0), 3)
+            row[f"{prefix}mean_std"] = round(s.get('top_left_mean_std', 0), 3)
+            row[f"{prefix}var"] = round(s.get('top_left_var', 0), 3)
+            row[f"{prefix}entropy"] = round(s.get('top_left_entropy', 0), 3)
         rows.append(row)
     
     df = pd.DataFrame(rows)

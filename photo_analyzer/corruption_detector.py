@@ -2,6 +2,7 @@ import json
 import numpy as np
 import imagehash
 from image_analyzer import ImageAnalyzer
+from photo_sector import PhotoSector
 from pathlib import Path
 
 class CorruptionDetector:
@@ -51,9 +52,22 @@ class CorruptionDetector:
         for path, metrics in self.analyzers.items():
             is_bug = self.is_corrupted(metrics)
             filename = Path(path).name
+            # Create PhotoSector for each region
+            tl_sector = PhotoSector(metrics['top_left'])
+            tr_sector = PhotoSector(metrics['top_right'])
+            bl_sector = PhotoSector(metrics['bottom_left'])
+            br_sector = PhotoSector(metrics['bottom_right'])
+            
             results[filename] = {
                 'corrupted': is_bug,
-                **metrics
+                'top_left': tl_sector.to_json(),
+                'top_right': tr_sector.to_json(),
+                'bottom_left': bl_sector.to_json(),
+                'bottom_right': br_sector.to_json(),
+                'path': metrics['path'],
+                'exif': metrics['exif'],
+                'height': metrics['height'],
+                'width': metrics['width']
             }
         return results
 
