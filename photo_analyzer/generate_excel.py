@@ -50,4 +50,8 @@ def generate_excel(report_path):
     print(df[['filename', 'corrupted', 'bottom_dominant', 'bottom_imbalance', 'bottom_mean_std', 'bottom_var']].to_string())
 
 if __name__ == '__main__':
-    generate_excel('detection_report.json')
+    report_path = Path(__file__).parent / 'detection_report.json'
+    if report_path.exists():
+        generate_excel(report_path)
+    else:
+        print("Execute 'python main.py' primeiro para gerar detection_report.json")
