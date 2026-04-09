@@ -29,8 +29,11 @@
         20.36687729735642,
         27.091623234707292
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.548982162928421,
       "green_ratio": 1.0489156259731398,
-      "entropy": "6.569688",
+      "mean_std": 24.489093381792184,
+      "entropy": 6.569687843322754,
       "laplacian_var": 132.54073008512043,
       "phash": "830f3e5d2a717ea0"
     },
@@ -45,8 +48,11 @@
         25.822870627909012,
         35.29874729135553
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.5605372744213222,
       "green_ratio": 1.1210745540717173,
-      "entropy": "6.9418745",
+      "mean_std": 31.25233197278696,
+      "entropy": 6.9418745040893555,
       "laplacian_var": 228.61156802533066,
       "phash": "8cc374dd275a41ae"
     },
@@ -54,7 +60,7 @@
     "width": 5280
   },
   "DJI_20260406134848_0019_D.JPG": {
-    "corrupted": "False",
+    "corrupted": "True",
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134848_0019_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -83,8 +89,11 @@
         9.513368612296144,
         14.3318658822504
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.5030739044614442,
       "green_ratio": 1.0061478129352537,
-      "entropy": "0.8703044",
+      "mean_std": 11.545105380939745,
+      "entropy": 0.8703044056892395,
       "laplacian_var": 22.510685302365324,
       "phash": "9e1e1e1e1e1e1e1c"
     },
@@ -99,8 +108,11 @@
         0.0,
         0.0
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.499999998046875,
       "green_ratio": 1.0,
-      "entropy": "-0.0",
+      "mean_std": 0.0,
+      "entropy": -0.0,
       "laplacian_var": 0.0,
       "phash": "8000000000000000"
     },
@@ -108,7 +120,7 @@
     "width": 5280
   },
   "DJI_20260406134851_0020_D.JPG": {
-    "corrupted": "False",
+    "corrupted": "True",
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134851_0020_D.JPG",
     "exif": {},
     "top": {
@@ -122,8 +134,11 @@
         15.964608436988977,
         22.195988673757228
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.506784723169819,
       "green_ratio": 1.0135694505317803,
-      "entropy": "1.6778109",
+      "mean_std": 18.899634371835447,
+      "entropy": 1.6778109073638916,
       "laplacian_var": 26.544034803271927,
       "phash": "b3333333333262e6"
     },
@@ -138,8 +153,11 @@
         0.0,
         0.0
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.499999998046875,
       "green_ratio": 1.0,
-      "entropy": "-0.0",
+      "mean_std": 0.0,
+      "entropy": -0.0,
       "laplacian_var": 0.0,
       "phash": "8000000000000000"
     },
@@ -147,7 +165,7 @@
     "width": 5280
   },
   "DJI_20260406134854_0021_D.JPG": {
-    "corrupted": "False",
+    "corrupted": "True",
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134854_0021_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -176,8 +194,11 @@
         19.4330260568606,
         29.341418894483883
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.521630020527044,
       "green_ratio": 1.0432600455960273,
-      "entropy": "3.0160182",
+      "mean_std": 24.529972489288,
+      "entropy": 3.0160181522369385,
       "laplacian_var": 71.06229946315051,
       "phash": "a424242dc9dbdf36"
     },
@@ -192,8 +213,11 @@
         0.0,
         0.0
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.499999998046875,
       "green_ratio": 1.0,
-      "entropy": "-0.0",
+      "mean_std": 0.0,
+      "entropy": -0.0,
       "laplacian_var": 0.0,
       "phash": "8000000000000000"
     },
@@ -201,7 +225,7 @@
     "width": 5280
   },
   "DJI_20260406134857_0022_D.JPG": {
-    "corrupted": "False",
+    "corrupted": "True",
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134857_0022_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -230,8 +254,11 @@
         18.386814589954586,
         30.09551970066812
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.5231157933341543,
       "green_ratio": 1.0462315911536817,
-      "entropy": "2.318151",
+      "mean_std": 25.08915262164452,
+      "entropy": 2.3181509971618652,
       "laplacian_var": 71.755145963786,
       "phash": "ab2b2b68e8c8dad2"
     },
@@ -246,8 +273,11 @@
         0.0,
         0.0
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.499999998046875,
       "green_ratio": 1.0,
-      "entropy": "-0.0",
+      "mean_std": 0.0,
+      "entropy": -0.0,
       "laplacian_var": 0.0,
       "phash": "8000000000000000"
     },
@@ -255,7 +285,7 @@
     "width": 5280
   },
   "DJI_20260406134901_0023_D.JPG": {
-    "corrupted": "False",
+    "corrupted": "True",
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134901_0023_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -284,8 +314,11 @@
         39.94647038621635,
         52.30423593928637
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.5499271798724561,
       "green_ratio": 1.0998543652677832,
-      "entropy": "2.7971358",
+      "mean_std": 48.71215326972506,
+      "entropy": 2.797135829925537,
       "laplacian_var": 88.26184907188457,
       "phash": "c34343e3e3c3870f"
     },
@@ -300,8 +333,11 @@
         0.0,
         0.0
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.499999998046875,
       "green_ratio": 1.0,
-      "entropy": "-0.0",
+      "mean_std": 0.0,
+      "entropy": -0.0,
       "laplacian_var": 0.0,
       "phash": "8000000000000000"
     },
@@ -309,7 +345,7 @@
     "width": 5280
   },
   "DJI_20260406134904_0024_D.JPG": {
-    "corrupted": "False",
+    "corrupted": "True",
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134904_0024_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -338,8 +374,11 @@
         13.918492849625883,
         19.001415483871988
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.5095141121959841,
       "green_ratio": 1.019028228471232,
-      "entropy": "1.498958",
+      "mean_std": 17.18295128549018,
+      "entropy": 1.4989579916000366,
       "laplacian_var": 37.79191665895006,
       "phash": "ac2c2c2c2c2c6f7f"
     },
@@ -354,8 +393,11 @@
         0.0,
         0.0
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.499999998046875,
       "green_ratio": 1.0,
-      "entropy": "-0.0",
+      "mean_std": 0.0,
+      "entropy": -0.0,
       "laplacian_var": 0.0,
       "phash": "8000000000000000"
     },
@@ -392,8 +434,11 @@
         39.308482983543676,
         43.66769968440488
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.5954621504932224,
       "green_ratio": 1.1909243066293076,
-      "entropy": "7.444492",
+      "mean_std": 44.46066381179916,
+      "entropy": 7.444491863250732,
       "laplacian_var": 423.76755052598827,
       "phash": "a4595faaaa8cad91"
     },
@@ -408,8 +453,11 @@
         40.598773801824144,
         47.25462828786512
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.6083203608093947,
       "green_ratio": 1.2166407271360993,
-      "entropy": "7.496798",
+      "mean_std": 46.737392008430696,
+      "entropy": 7.496798038482666,
       "laplacian_var": 568.6387709221042,
       "phash": "a4079f7c20cee1f8"
     },
@@ -417,7 +465,7 @@
     "width": 5280
   },
   "DJI_20260406140552_0001_D.JPG": {
-    "corrupted": "False",
+    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140552_0001_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -446,8 +494,11 @@
         41.26077822513502,
         46.47869021888055
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 0.7788098221075261,
       "green_ratio": 1.5576196626717063,
-      "entropy": "4.6260095",
+      "mean_std": 50.39206786375359,
+      "entropy": 4.626009464263916,
       "laplacian_var": 62.1149954841488,
       "phash": "e3e3e31c1858e38b"
     },
@@ -462,8 +513,11 @@
         5.747692545487516,
         2.262107470969518
       ],
+      "dominant_channel": "G",
+      "channel_imbalance": 117.80950551843141,
       "green_ratio": 235.61983079062543,
-      "entropy": "2.5110807",
+      "mean_std": 3.0948583722319842,
+      "entropy": 2.511080741882324,
       "laplacian_var": 3.6597947206402117,
       "phash": "99648867e7996699"
     },
@@ -500,8 +554,11 @@
         16.635996286100024,
         16.253797442950084
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.5911708488074859,
       "green_ratio": 1.0426646700378708,
-      "entropy": "6.1468115",
+      "mean_std": 18.84424184223015,
+      "entropy": 6.146811485290527,
       "laplacian_var": 110.57251649762712,
       "phash": "f0386f0a4fb74c29"
     },
@@ -516,8 +573,11 @@
         16.689418146725675,
         17.984939577057915
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.6050191066539707,
       "green_ratio": 1.052308525700507,
-      "entropy": "6.2684016",
+      "mean_std": 19.76635342980273,
+      "entropy": 6.268401622772217,
       "laplacian_var": 127.06057191483043,
       "phash": "e66631f99b83342c"
     },
@@ -554,8 +614,11 @@
         15.136949352011998,
         15.12547520744342
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.5882824561514884,
       "green_ratio": 1.0368136371329733,
-      "entropy": "5.993966",
+      "mean_std": 17.021822258348823,
+      "entropy": 5.993966102600098,
       "laplacian_var": 108.92702509810411,
       "phash": "f81f617164174b36"
     },
@@ -570,8 +633,11 @@
         17.051503662684095,
         17.91872545413121
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.5978708807843457,
       "green_ratio": 1.0595439020417639,
-      "entropy": "6.2852125",
+      "mean_std": 19.906182943487952,
+      "entropy": 6.285212516784668,
       "laplacian_var": 122.85880573156388,
       "phash": "e673988e70d9b12c"
     },
@@ -579,7 +645,7 @@
     "width": 5280
   },
   "DJI_20260406140603_0004_D.JPG": {
-    "corrupted": "False",
+    "corrupted": "True",
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140603_0004_D.JPG",
     "exif": {},
     "top": {
@@ -593,8 +659,11 @@
         0.0,
         0.0
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.0,
       "green_ratio": 0.0,
-      "entropy": "-0.0",
+      "mean_std": 0.0,
+      "entropy": -0.0,
       "laplacian_var": 0.0,
       "phash": "0000000000000000"
     },
@@ -609,8 +678,11 @@
         0.0,
         0.0
       ],
+      "dominant_channel": "R",
+      "channel_imbalance": 0.0,
       "green_ratio": 0.0,
-      "entropy": "-0.0",
+      "mean_std": 0.0,
+      "entropy": -0.0,
       "laplacian_var": 0.0,
       "phash": "0000000000000000"
     },

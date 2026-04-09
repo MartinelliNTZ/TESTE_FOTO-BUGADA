@@ -1,5 +1,6 @@
 import json
 import numpy as np
+import imagehash
 from image_analyzer import ImageAnalyzer
 from pathlib import Path
 
@@ -21,27 +22,34 @@ class CorruptionDetector:
     def is_corrupted(self, metrics: dict) -> bool:
         bottom = metrics['bottom']
         top = metrics['top']
-        # Thresholds tuned for green corruption bottom-heavy
-        green_dom_thresh = 1.8  # G > 1.8 * (R+B)/2
-        low_var_thresh = 500.0  # Low laplacian var (blurry/corrupt)
-        low_entropy_thresh = 5.0
-        high_green_thresh = 150  # Absolute high green mean
+        # Generalized for any channel corruption (green/blue/pink/black/gray)
+        imbalance_thresh = 4.0  # One channel >> others
+        low_var_thresh = 50.0
+        low_ent_thresh = 4.0
+        low_std_thresh = 10.0
+        quality_diff_thresh = 5.0  # top much sharper
+        phash_diff_thresh = 10
 
-        b_gr = bottom['green_ratio']
+        # Channel imbalance bottom
+        b_imbalance = bottom['channel_imbalance']
         b_var = bottom['laplacian_var']
         b_ent = bottom['entropy']
-        b_gmean = bottom['means'][1]
+        b_std_mean = bottom['mean_std']
 
-        # Bottom corrupted if green heavy, low quality, vs top normal
+        # Top-bottom quality diff
         t_var = top['laplacian_var']
-        bottom_corrupt = (
-            b_gr > green_dom_thresh and
-            b_var < low_var_thresh and
-            b_ent < low_entropy_thresh and
-            b_gmean > high_green_thresh and
-            t_var > b_var * 1.2  # Top sharper
-        )
-        return bottom_corrupt
+        phash_t = imagehash.hex_to_hash(top['phash'])
+        phash_b = imagehash.hex_to_hash(bottom['phash'])
+        phash_dist = phash_t - phash_b
+
+        # ANY of these = corrupted
+        imbalance_issue = b_imbalance > imbalance_thresh
+        low_quality = (b_var < low_var_thresh or b_ent < low_ent_thresh or b_std_mean < low_std_thresh)
+        quality_diff = t_var > b_var * quality_diff_thresh
+        hash_diff = phash_dist > phash_diff_thresh
+
+        corrupted = imbalance_issue or low_quality or (quality_diff and hash_diff)
+        return corrupted
 
     def detect(self):
         self.load_images()

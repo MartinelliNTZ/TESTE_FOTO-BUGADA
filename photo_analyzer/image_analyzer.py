@@ -53,11 +53,20 @@ class ImageAnalyzer:
         # Perceptual hash
         pil_region = Image.fromarray(region.astype(np.uint8))
         phash = imagehash.phash(pil_region)
+        means_list = np.array([r_mean, g_mean, b_mean])
+        dominant_chan = np.argmax(means_list)
+        chan_names = ['R', 'G', 'B']
+        dominant_name = chan_names[dominant_chan]
+        imbalance = means_list[dominant_chan] / (np.sum(means_list) - means_list[dominant_chan] + 1e-6)
+        std_mean = np.mean([r_std, g_std, b_std])
         return {
             'means': (r_mean, g_mean, b_mean),
             'stds': (r_std, g_std, b_std),
+            'dominant_channel': dominant_name,
+            'channel_imbalance': float(imbalance),
             'green_ratio': green_ratio,
-            'entropy': entropy,
+            'mean_std': float(std_mean),
+            'entropy': float(entropy),
             'laplacian_var': laplacian_var,
             'phash': str(phash)
         }
