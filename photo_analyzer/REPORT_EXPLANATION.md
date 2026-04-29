@@ -143,6 +143,61 @@ DJI...0004_D.JPG      | TRUE       | tudo preto (means=0)
 **Exemplo CINZA _0023_D** (DJI_20260406134901_0023_D.JPG): Bottom PERFECTO cinza: means=[128x3], stds=[0x3]=sem variação ALGUMA, entropy=-0.0 (0 info), laplacian_var=0 (borrado total), dominant=R mas tudo igual, phash="8000..."=uniforme. Top tem variação/entropy~1.8/var~50=normal. **Diferença gritante= BUG detectado!** Thresholds pegaram low_var/low_ent/low_std.
 - **Próximo?** Rode em mais pastas, ajusta limites.
 
+---
+
+## 7. **FUNÇÃO diagnostico() - DETALHES ENRIQUECIDOS**
+
+### O que retorna?
+```python
+status, detalhes, severidade, evidencias = diagnostico(imagem_json)
+```
+
+| Retorno | Tipo | Exemplo |
+|---------|------|---------|
+| **status** | str | "OK" ou "Corrompida" |
+| **severidade** | float | 0.75 (0.0=OK, 1.0=crítico) |
+| **detalhes** | str | "Dominância de cor (verde) anormal\nEvidências:\n  • bottom_left: green_ratio=1474.2" |
+| **evidencias** | list | ["bottom_left: green_ratio=1474.2", "..."] |
+
+### Padrões detectados:
+
+**1. Cinzento Puro (128,128,128)** → severidade 0.85-0.95
+- Metade inferior despropositado, stds=0
+- Evidência: `Bottom cinzento puro: means=(128,128,128)`
+
+**2. Verde Extremo** → severidade 0.75
+- green_ratio > 50 ou imbalance > 4
+- Evidência: `green_ratio=1474.2`
+
+**3. Muito Borrada** → severidade 0.65
+- laplacian_var < 50
+- Evidência: `Nitidez crítica: bottom=10.1, top=60.0`
+
+**4. Uniforme** → severidade 0.70
+- entropy < 4.0 (sem detalhes)
+- Evidência: `Entropia baixa: bottom=1.5`
+
+**5. Parede Chata** → severidade 0.60
+- mean_std < 10.0 (cores idênticas)
+- Evidência: `Mean std extremo: 2.1`
+
+### Exemplo JSON:
+```json
+{
+  "DJI_foto.JPG": {
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "severidade": 0.75,
+      "detalhes": "Dominância de cor (verde) anormal\nEvidências:\n  • bottom_left: green_ratio=1474.2\n  • bottom_right: green_ratio=1821.1",
+      "evidencias": ["bottom_left: green_ratio=1474.2", "bottom_right: green_ratio=1821.1"]
+    }
+  }
+}
+```
+
+---
+
 **DÚVIDA?** Pergunta qualquer coisa. Correu `python main.py` já? 😄
 
-*Atualizado por BLACKBOXAI - Explicação total pro iniciante.*
+*Atualizado com função diagnostico() - Fornecimento de detalhes enriquecidos.*

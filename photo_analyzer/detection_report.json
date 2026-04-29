@@ -1,6 +1,5 @@
 {
   "DJI_20260406134845_0018_D.JPG": {
-    "corrupted": false,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134845_0018_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -214,10 +213,16 @@
       "hsv_mean_std": 26.20486094426585,
       "hsv_entropy": 6.770177841186523,
       "hsv_var": 201.03823756390238
+    },
+    "corrupted": false,
+    "diagnostico": {
+      "status": "OK",
+      "detalhes": "",
+      "severidade": 0.0,
+      "evidencias": []
     }
   },
   "DJI_20260406134848_0019_D.JPG": {
-    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134848_0019_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -431,10 +436,18 @@
       "hsv_mean_std": 6.736316082751682,
       "hsv_entropy": 0.29653674364089966,
       "hsv_var": 6.813846822549173
+    },
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "detalhes": "Metade inferior em falta; parte superior com pouca informação Evidências:  • Bottom cinzento puro: means=(128,128,128)",
+      "severidade": 0.85,
+      "evidencias": [
+        "Bottom cinzento puro: means=(128,128,128)"
+      ]
     }
   },
   "DJI_20260406134851_0020_D.JPG": {
-    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134851_0020_D.JPG",
     "exif": {},
     "height": 3956,
@@ -633,10 +646,18 @@
       "hsv_mean_std": 10.366704215775655,
       "hsv_entropy": 0.5857837200164795,
       "hsv_var": 8.020777461599945
+    },
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "detalhes": "Metade inferior em falta; parte superior com pouca informação Evidências:  • Bottom cinzento puro: means=(128,128,128)",
+      "severidade": 0.85,
+      "evidencias": [
+        "Bottom cinzento puro: means=(128,128,128)"
+      ]
     }
   },
   "DJI_20260406134854_0021_D.JPG": {
-    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134854_0021_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -850,10 +871,18 @@
       "hsv_mean_std": 15.537185413717784,
       "hsv_entropy": 1.0810952186584473,
       "hsv_var": 21.40787540789542
+    },
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "detalhes": "Metade inferior em falta; parte superior com pouca informação Evidências:  • Bottom cinzento puro: means=(128,128,128)",
+      "severidade": 0.85,
+      "evidencias": [
+        "Bottom cinzento puro: means=(128,128,128)"
+      ]
     }
   },
   "DJI_20260406134857_0022_D.JPG": {
-    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134857_0022_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -1067,10 +1096,18 @@
       "hsv_mean_std": 16.63610319798558,
       "hsv_entropy": 0.8179287910461426,
       "hsv_var": 26.12774582401039
+    },
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "detalhes": "Metade inferior em falta; parte superior com pouca informação Evidências:  • Bottom cinzento puro: means=(128,128,128)",
+      "severidade": 0.85,
+      "evidencias": [
+        "Bottom cinzento puro: means=(128,128,128)"
+      ]
     }
   },
   "DJI_20260406134901_0023_D.JPG": {
-    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134901_0023_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -1284,10 +1321,18 @@
       "hsv_mean_std": 33.96574744425877,
       "hsv_entropy": 1.1231350898742676,
       "hsv_var": 30.061689616952343
+    },
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "detalhes": "Metade inferior em falta; parte superior com pouca informação Evidências:  • Bottom cinzento puro: means=(128,128,128)",
+      "severidade": 0.85,
+      "evidencias": [
+        "Bottom cinzento puro: means=(128,128,128)"
+      ]
     }
   },
   "DJI_20260406134904_0024_D.JPG": {
-    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134904_0024_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -1501,10 +1546,18 @@
       "hsv_mean_std": 10.761790179713422,
       "hsv_entropy": 0.5184621214866638,
       "hsv_var": 11.894895408212086
+    },
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "detalhes": "Metade inferior em falta; parte superior com pouca informação Evidências:  • Bottom cinzento puro: means=(128,128,128)",
+      "severidade": 0.85,
+      "evidencias": [
+        "Bottom cinzento puro: means=(128,128,128)"
+      ]
     }
   },
   "DJI_20260406134908_0025_D.JPG": {
-    "corrupted": false,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406134908_0025_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -1718,10 +1771,16 @@
       "hsv_mean_std": 35.01142131997924,
       "hsv_entropy": 7.480006217956543,
       "hsv_var": 529.0338207975395
+    },
+    "corrupted": false,
+    "diagnostico": {
+      "status": "OK",
+      "detalhes": "",
+      "severidade": 0.0,
+      "evidencias": []
     }
   },
   "DJI_20260406140552_0001_D.JPG": {
-    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140552_0001_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -1935,10 +1994,19 @@
       "hsv_mean_std": 34.5031946765391,
       "hsv_entropy": 4.725655555725098,
       "hsv_var": 31.299239359924716
+    },
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "detalhes": "Dominância de cor (verde) anormal Evidências:  • bottom_left: green_ratio=1474.5  • bottom_right: green_ratio=128.5",
+      "severidade": 0.75,
+      "evidencias": [
+        "bottom_left: green_ratio=1474.5",
+        "bottom_right: green_ratio=128.5"
+      ]
     }
   },
   "DJI_20260406140559_0002_D.JPG": {
-    "corrupted": false,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140559_0002_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -2152,10 +2220,16 @@
       "hsv_mean_std": 15.869861589051226,
       "hsv_entropy": 6.57487154006958,
       "hsv_var": 124.20853088396407
+    },
+    "corrupted": false,
+    "diagnostico": {
+      "status": "OK",
+      "detalhes": "",
+      "severidade": 0.0,
+      "evidencias": []
     }
   },
   "DJI_20260406140603_0003_D.JPG": {
-    "corrupted": false,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140603_0003_D.JPG",
     "exif": {
       "GPSInfo": 734,
@@ -2369,10 +2443,16 @@
       "hsv_mean_std": 15.14474330838003,
       "hsv_entropy": 6.511114120483398,
       "hsv_var": 120.65504201504265
+    },
+    "corrupted": false,
+    "diagnostico": {
+      "status": "OK",
+      "detalhes": "",
+      "severidade": 0.0,
+      "evidencias": []
     }
   },
   "DJI_20260406140603_0004_D.JPG": {
-    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\DJI_20260406140603_0004_D.JPG",
     "exif": {},
     "height": 648,
@@ -2571,10 +2651,18 @@
       "hsv_mean_std": 0.0,
       "hsv_entropy": -0.0,
       "hsv_var": 0.0
+    },
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "detalhes": "Imagem excessivamente borrada ou uniforme Evidências:  • Nitidez crítica: bottom=0.0, top=0.0",
+      "severidade": 0.65,
+      "evidencias": [
+        "Nitidez crítica: bottom=0.0, top=0.0"
+      ]
     }
   },
   "IX-12-12730_0496_0009.JPG": {
-    "corrupted": true,
     "path": "g:\\DCIM\\TESTE_FOTO BUGADA\\DJI_202604061403_002_B01\\IX-12-12730_0496_0009.JPG",
     "exif": {
       "GPSInfo": 9574,
@@ -2786,6 +2874,13 @@
       "hsv_mean_std": 37.01662831831388,
       "hsv_entropy": 5.660975456237793,
       "hsv_var": 11326.564711407516
+    },
+    "corrupted": true,
+    "diagnostico": {
+      "status": "Corrompida",
+      "detalhes": "Corrupção detectada (padrão não específico)",
+      "severidade": 0.5,
+      "evidencias": []
     }
   }
 }
