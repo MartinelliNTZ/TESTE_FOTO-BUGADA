@@ -29,7 +29,7 @@ class ImageAnalyzer:
             self.exif[tag] = value
 
     def get_full_metrics(self):
-        from image_rgb_util import ImageRGBUtil
+        from ImageRGBUtil import ImageRGBUtil
         
         # Delegate tudo para ImageRGBUtil
         return ImageRGBUtil.get_full_metrics(self.image, self.path, self.exif, self.image.shape[0], self.image.shape[1])

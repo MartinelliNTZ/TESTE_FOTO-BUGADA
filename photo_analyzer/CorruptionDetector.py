@@ -1,8 +1,8 @@
 import json
 import numpy as np
 import imagehash
-from image_analyzer import ImageAnalyzer
-from photo_sector import PhotoSector
+from ImageAnalyzer import ImageAnalyzer
+from PhotoSector import PhotoSector
 from pathlib import Path
 
 
