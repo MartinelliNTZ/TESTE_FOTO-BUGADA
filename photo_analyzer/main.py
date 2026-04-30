@@ -7,7 +7,7 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from pathlib import Path
-from CorruptionDetector import CorruptionDetector
+from metadata.CorruptionDetector import CorruptionDetector
 from PIL import Image
 import numpy as np
 import re

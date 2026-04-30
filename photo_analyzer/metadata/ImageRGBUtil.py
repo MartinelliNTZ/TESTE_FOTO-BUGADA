@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import imagehash
 from PIL import Image
-from HSVUtil import HSVUtil
+from metadata.HSVUtil import HSVUtil
 
 class ImageRGBUtil:
     @staticmethod
