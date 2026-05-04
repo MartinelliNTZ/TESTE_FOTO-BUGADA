@@ -87,7 +87,7 @@ class MetadataFieldKey(Enum):
     
     @classmethod
     def get_all_exif_fields(cls) -> list:
-        """Returns all EXIF-related field keys."""
+        """Returns all EXIF-related field keys.."""
         return [
             cls.GPS_INFO,
             cls.GPS_MAP_DATUM,
